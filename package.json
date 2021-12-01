@@ -1,0 +1,27 @@
+{
+  "name": "vite-svg-symbol-loader",
+  "version": "1.0.0",
+  "description": "Vite plugin to load SVG file transform to symobl tag strings",
+  "keywords": [
+    "vite",
+    "svg"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicefan/vite-svg-symbol-loader.git"
+  },
+  "author": "nicefan <covien@msn.com>",
+  "license": "MIT",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "scripts": {
+  },
+  "dependencies": {
+    "svgo": "^2.7.0",
+    "svg-baker": "~1.7.0"
+  },
+  "devDependencies": {
+    "@types/svgo": "^2.4.2",
+    "vite": "^2.5.10"
+  }
+}
